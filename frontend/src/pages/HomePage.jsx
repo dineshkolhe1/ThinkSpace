@@ -5,6 +5,7 @@ import api from '../lib/axios';
 import toast from 'react-hot-toast';
 import NoteCard from '../components/NoteCard';
 import NotesNotFound from '../components/NotesNotFound';
+import Footer from '../components/Footer';
 
 const HomePage = () => {
   
@@ -52,6 +53,7 @@ const HomePage = () => {
           </div>
         )}
       </div>
+      <Footer/>
     </div>
   )
 }
